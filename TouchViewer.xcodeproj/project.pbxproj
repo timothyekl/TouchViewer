@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224357B712B5BCEC00606277 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224357B612B5BCEC00606277 /* UIKit.framework */; };
+		224357B912B5BCEC00606277 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224357B812B5BCEC00606277 /* Foundation.framework */; };
+		224357BB12B5BCEC00606277 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224357BA12B5BCEC00606277 /* CoreGraphics.framework */; };
+		224357C012B5BCEC00606277 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 224357BE12B5BCEC00606277 /* InfoPlist.strings */; };
+		224357C212B5BCEC00606277 /* TouchViewer-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224357C112B5BCEC00606277 /* TouchViewer-main.m */; };
+		224357C512B5BCEC00606277 /* TouchViewerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224357C412B5BCEC00606277 /* TouchViewerAppDelegate.m */; };
+		224357C812B5BCED00606277 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224357C612B5BCED00606277 /* MainWindow.xib */; };
+		224357CB12B5BCED00606277 /* TouchViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224357CA12B5BCED00606277 /* TouchViewerViewController.m */; };
+		224357CE12B5BCED00606277 /* TouchViewerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224357CC12B5BCED00606277 /* TouchViewerViewController.xib */; };
+		224357DA12B5BE4100606277 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 224357D912B5BE4100606277 /* CircleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		224357B312B5BCEC00606277 /* TouchViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224357B612B5BCEC00606277 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		224357B812B5BCEC00606277 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		224357BA12B5BCEC00606277 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		224357BC12B5BCEC00606277 /* TouchViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchViewer-Info.plist"; sourceTree = "<group>"; };
+		224357BD12B5BCEC00606277 /* TouchViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchViewer-Prefix.pch"; sourceTree = "<group>"; };
+		224357BF12B5BCEC00606277 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		224357C112B5BCEC00606277 /* TouchViewer-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TouchViewer-main.m"; sourceTree = "<group>"; };
+		224357C312B5BCEC00606277 /* TouchViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchViewerAppDelegate.h; sourceTree = "<group>"; };
+		224357C412B5BCEC00606277 /* TouchViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchViewerAppDelegate.m; sourceTree = "<group>"; };
+		224357C712B5BCED00606277 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		224357C912B5BCED00606277 /* TouchViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchViewerViewController.h; sourceTree = "<group>"; };
+		224357CA12B5BCED00606277 /* TouchViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchViewerViewController.m; sourceTree = "<group>"; };
+		224357CD12B5BCED00606277 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TouchViewerViewController.xib; sourceTree = "<group>"; };
+		224357D812B5BE4100606277 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		224357D912B5BE4100606277 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224357B012B5BCEC00606277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224357B712B5BCEC00606277 /* UIKit.framework in Frameworks */,
+				224357B912B5BCEC00606277 /* Foundation.framework in Frameworks */,
+				224357BB12B5BCEC00606277 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224357A412B5BCEC00606277 = {
+			isa = PBXGroup;
+			children = (
+				224357AB12B5BCEC00606277 /* Classes */,
+				224357AC12B5BCEC00606277 /* Other Sources */,
+				224357AD12B5BCEC00606277 /* Resources */,
+				224357AE12B5BCEC00606277 /* Frameworks */,
+				224357B412B5BCEC00606277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224357AB12B5BCEC00606277 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				224357C312B5BCEC00606277 /* TouchViewerAppDelegate.h */,
+				224357C412B5BCEC00606277 /* TouchViewerAppDelegate.m */,
+				224357C912B5BCED00606277 /* TouchViewerViewController.h */,
+				224357CA12B5BCED00606277 /* TouchViewerViewController.m */,
+				224357D812B5BE4100606277 /* CircleView.h */,
+				224357D912B5BE4100606277 /* CircleView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		224357AC12B5BCEC00606277 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				224357BD12B5BCEC00606277 /* TouchViewer-Prefix.pch */,
+				224357C112B5BCEC00606277 /* TouchViewer-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		224357AD12B5BCEC00606277 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				224357BC12B5BCEC00606277 /* TouchViewer-Info.plist */,
+				224357BE12B5BCEC00606277 /* InfoPlist.strings */,
+				224357C612B5BCED00606277 /* MainWindow.xib */,
+				224357CC12B5BCED00606277 /* TouchViewerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		224357AE12B5BCEC00606277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				224357B612B5BCEC00606277 /* UIKit.framework */,
+				224357B812B5BCEC00606277 /* Foundation.framework */,
+				224357BA12B5BCEC00606277 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		224357B412B5BCEC00606277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224357B312B5BCEC00606277 /* TouchViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224357B212B5BCEC00606277 /* TouchViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224357D112B5BCED00606277 /* Build configuration list for PBXNativeTarget "TouchViewer" */;
+			buildPhases = (
+				224357AF12B5BCEC00606277 /* Sources */,
+				224357B012B5BCEC00606277 /* Frameworks */,
+				224357B112B5BCEC00606277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchViewer;
+			productName = TouchViewer;
+			productReference = 224357B312B5BCEC00606277 /* TouchViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224357A612B5BCEC00606277 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 224357A912B5BCEC00606277 /* Build configuration list for PBXProject "TouchViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 224357A412B5BCEC00606277;
+			productRefGroup = 224357B412B5BCEC00606277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224357B212B5BCEC00606277 /* TouchViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224357B112B5BCEC00606277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224357C012B5BCEC00606277 /* InfoPlist.strings in Resources */,
+				224357C812B5BCED00606277 /* MainWindow.xib in Resources */,
+				224357CE12B5BCED00606277 /* TouchViewerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224357AF12B5BCEC00606277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224357C212B5BCEC00606277 /* TouchViewer-main.m in Sources */,
+				224357C512B5BCEC00606277 /* TouchViewerAppDelegate.m in Sources */,
+				224357CB12B5BCED00606277 /* TouchViewerViewController.m in Sources */,
+				224357DA12B5BE4100606277 /* CircleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		224357BE12B5BCEC00606277 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224357BF12B5BCEC00606277 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		224357C612B5BCED00606277 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224357C712B5BCED00606277 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		224357CC12B5BCED00606277 /* TouchViewerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224357CD12B5BCED00606277 /* en */,
+			);
+			name = TouchViewerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		224357CF12B5BCED00606277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		224357D012B5BCED00606277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		224357D212B5BCED00606277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchViewer-Prefix.pch";
+				INFOPLIST_FILE = "TouchViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		224357D312B5BCED00606277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchViewer-Prefix.pch";
+				INFOPLIST_FILE = "TouchViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224357A912B5BCEC00606277 /* Build configuration list for PBXProject "TouchViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224357CF12B5BCED00606277 /* Debug */,
+				224357D012B5BCED00606277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224357D112B5BCED00606277 /* Build configuration list for PBXNativeTarget "TouchViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224357D212B5BCED00606277 /* Debug */,
+				224357D312B5BCED00606277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224357A612B5BCEC00606277 /* Project object */;
+}
