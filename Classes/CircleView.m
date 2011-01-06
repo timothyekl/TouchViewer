@@ -20,23 +20,16 @@
     return self;
 }
 
-
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     CGContextAddEllipseInRect(context, self.bounds);
+	
     CGContextSetStrokeColorWithColor(context, [[UIColor blackColor] CGColor]);
     CGContextSetFillColorWithColor(context, [[UIColor redColor] CGColor]);
-    CGContextFillPath(context);
+    
+	CGContextFillPath(context);
     CGContextStrokePath(context);
 }
-
-- (void)dealloc {
-    [super dealloc];
-}
-
 
 @end

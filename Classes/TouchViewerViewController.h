@@ -11,7 +11,7 @@
 @class CircleView;
 
 @interface TouchViewerViewController : UIViewController {
-    NSMutableSet * circles;
+    NSMutableSet * _circles;
 }
 @property (nonatomic, retain) NSMutableSet * circles;
 
