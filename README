@@ -1,0 +1,6 @@
+TouchViewer is a simple iPad application that shows the position of touches
+on the screen. It follows users through moving touches and can track up
+to 11 touches at a time (albeit slowly).
+
+TouchViewer has no external dependencies and can be built with a current
+version of Xcode with the iOS SDK.
